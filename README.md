@@ -12,7 +12,9 @@ Fuente: https://stackoverflow.com/questions/19883917/execute-current-line-in-bas
 n              - repeat forward search
 N              - repeat backward
 
-3. 
+3. Delete from cursor to the beginning of the line with d0,
+   from the cursor to the end of the line with d$ or C. And
+then R activates remplacing text.
 
 4. 
 
