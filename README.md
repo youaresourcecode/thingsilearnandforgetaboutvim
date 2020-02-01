@@ -16,7 +16,12 @@ N              - repeat backward
    from the cursor to the end of the line with d$ or C. And
 then R activates remplacing text.
 
-4. 
+4. Replace in the same line: 
+· Globalmente: :%s/"/'/g (el % indica todo el doc)
+· Globalmente y con confirmación: :%s/"/'/gc
+· En una línea, la primera ocurrencia: :s/'/"/
+· En una línea, toda la fila: :s/'/"/g 
+· Buscar sobre la selcción \%V donde pones la comilla simple
 
 5. 
 
