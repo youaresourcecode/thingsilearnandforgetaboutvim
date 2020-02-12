@@ -23,6 +23,6 @@ then R activates remplacing text.
 · En una línea, toda la fila: :s/'/"/g 
 · Buscar sobre la selcción \%V donde pones la comilla simple
 
-5. 
+5. Paste exactly in a place: Instead of yy, use 0y$, and move to where you want to put it, and press p or P.
 
 6. 
